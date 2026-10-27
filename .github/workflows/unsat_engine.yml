@@ -46,13 +46,15 @@ jobs:
         run: |
           git config user.name "unsat-bot[bot]"
           git config user.email "unsat-bot@users.noreply.github.com"
-          git add ledger/ data/package-constraints.parquet
+
+          # Stage ledger, parquet, and generated public API artifacts
+          git add ledger/ data/package-constraints.parquet public/
 
           if git diff --staged --quiet; then
             echo "No new resolution proofs to commit."
           else
             git commit -m "chore(unsat): record dependency conflict proofs and remediations [skip ci]"
-            git pull --rebase origin main
+            git pull --rebase --autostash origin main
             git push origin main
           fi
 
