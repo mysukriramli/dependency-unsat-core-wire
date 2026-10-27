@@ -1,0 +1,41 @@
+{
+  "proof_hash": "7b9a22d6b30f09bedd653aae66dd4a8b15c180b765956afb75ba8331e41b64b7",
+  "target_dependency": "urllib3",
+  "remediations": [
+    {
+      "change_package": "botocore",
+      "from_version": "1.34.0",
+      "to_version": "1.43.119",
+      "cost": 1,
+      "strategy": "version_shift"
+    },
+    {
+      "change_package": "botocore",
+      "from_version": "1.34.0",
+      "to_version": "1.43.118",
+      "cost": 1,
+      "strategy": "version_shift"
+    },
+    {
+      "change_package": "botocore",
+      "from_version": "1.34.0",
+      "to_version": "1.43.117",
+      "cost": 1,
+      "strategy": "version_shift"
+    },
+    {
+      "change_package": "botocore",
+      "from_version": "1.34.0",
+      "to_version": "1.43.116",
+      "cost": 1,
+      "strategy": "version_shift"
+    },
+    {
+      "change_package": "botocore",
+      "from_version": "1.34.0",
+      "to_version": "1.43.115",
+      "cost": 1,
+      "strategy": "version_shift"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "wire": "dependency-unsat-core-wire",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-10-27T01:07:39.032019+00:00",
+  "source_cursor": "pypi-top-tier",
+  "freshness_slo_seconds": 3600,
+  "artifacts": [
+    "v1/ecosystems.json",
+    "today.json",
+    "llms.txt",
+    "schema.json",
+    "package-constraints.parquet"
+  ],
+  "coverage": {
+    "ecosystems": [
+      "pypi"
+    ],
+    "monitored_packages": [
+      "urllib3",
+      "requests",
+      "botocore",
+      "aiohttp",
+      "pydantic",
+      "fastapi",
+      "langchain-core",
+      "numpy",
+      "typing-extensions"
+    ]
+  },
+  "limitations": [
+    "Bounded MUS extraction (depth-limited)",
+    "Full npm and Cargo mirrors omitted to adhere to execution bounds"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "ecosystem": "pypi",
+  "target_dependency": "urllib3",
+  "status": "unsatisfiable",
+  "minimal_core": [
+    {
+      "source_package": "botocore",
+      "source_version": "1.34.0",
+      "specifier_raw": "<1.27,>=1.25.4"
+    },
+    {
+      "source_package": "modern-stack",
+      "source_version": "1.0.0",
+      "specifier_raw": ">=2.0.0"
+    }
+  ],
+  "available_versions_sample": [
+    "2.6.1",
+    "2.6.2",
+    "2.6.3",
+    "2.7.0",
+    "2.8.0"
+  ]
+}

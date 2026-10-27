@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "title": "UnsatConflictProof",
+  "type": "object",
+  "properties": {
+    "proof_hash": {
+      "type": "string"
+    },
+    "ecosystem": {
+      "type": "string"
+    },
+    "target_dependency": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "unsatisfiable"
+      ]
+    },
+    "minimal_core": {
+      "type": "array"
+    },
+    "remediations": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "proof_hash",
+    "ecosystem",
+    "target_dependency",
+    "status",
+    "minimal_core"
+  ]
+}
