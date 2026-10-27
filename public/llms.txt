@@ -1,0 +1,27 @@
+# Dependency UNSAT Core Wire
+> Deterministic Minimal Unsatisfiable Subset (MUS) extraction and remediation proofs for package dependency conflicts.
+
+## For Coding, CI Repair & Upgrade Agents
+Instead of ingesting 50 to 500 package metadata manifests, changelogs, and resolver logs (20,000 to 100,000 tokens), query this wire to get the exact minimal constraint contradiction and calculated version displacements.
+
+### Machine Endpoints
+- **Wire Manifest**: `https://{owner}.github.io/dependency-unsat-core-wire/v1/manifest.json`
+- **Today's Conflict Proofs**: `https://{owner}.github.io/dependency-unsat-core-wire/today.json`
+- **Contract Schema**: `https://{owner}.github.io/dependency-unsat-core-wire/v1/schema.json`
+- **Constraints Parquet**: `https://{owner}.github.io/dependency-unsat-core-wire/package-constraints.parquet`
+- **Conflict Proof Query**: `https://{owner}.github.io/dependency-unsat-core-wire/v1/conflicts/{proof_hash}.proof.json`
+- **Remediation Plan**: `https://{owner}.github.io/dependency-unsat-core-wire/v1/remediations/{proof_hash}.json`
+- **LLM Summary Digest**: `https://{owner}.github.io/dependency-unsat-core-wire/llms.txt`
+
+### Minimal Core Verification
+Proof objects specify the exact minimal contradiction:
+```json
+{
+  "status": "unsatisfiable",
+  "ecosystem": "pypi",
+  "target_dependency": "urllib3",
+  "minimal_core": [
+    {"source_package": "botocore", "source_version": "1.34.0", "specifier_raw": "<1.27,>=1.25.4"},
+    {"source_package": "modern-stack", "source_version": "1.0.0", "specifier_raw": ">=2.0.0"}
+  ]
+}
