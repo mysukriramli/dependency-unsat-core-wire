@@ -1,5 +1,5 @@
 # Dependency UNSAT Core Wire
-> Last Sync: 2026-10-27T09:02:44.573663+00:00 UTC
+> Last Sync: 2026-10-28T09:42:59.769940+00:00 UTC
 > Optimization: Deterministic Minimal Unsatisfiable Subsets (MUS) and remediations for dependency resolution conflicts.
 > Eliminates 20,000 to 100,000 tokens of resolver logs and changelogs per failure.
 
@@ -9,11 +9,11 @@
   - `botocore==1.34.0` requires `urllib3<1.27,>=1.25.4`
   - `modern-stack==1.0.0` requires `urllib3>=2.0.0`
 - **Candidate Remediations**:
+  - Move `botocore`: `1.34.0` -> `1.43.120` (Cost: 1)
   - Move `botocore`: `1.34.0` -> `1.43.119` (Cost: 1)
   - Move `botocore`: `1.34.0` -> `1.43.118` (Cost: 1)
   - Move `botocore`: `1.34.0` -> `1.43.117` (Cost: 1)
   - Move `botocore`: `1.34.0` -> `1.43.116` (Cost: 1)
-  - Move `botocore`: `1.34.0` -> `1.43.115` (Cost: 1)
 ### Target Conflict: `pydantic` (`84c4ebe3e4eab90e`)
 - **Minimal Contradiction Core**:
   - `fastapi==0.95.0` requires `pydantic<2.0.0,>=1.7.4`
