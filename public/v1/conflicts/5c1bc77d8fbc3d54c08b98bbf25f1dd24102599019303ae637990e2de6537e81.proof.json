@@ -1,0 +1,24 @@
+{
+  "ecosystem": "pypi",
+  "target_dependency": "pydantic",
+  "status": "unsatisfiable",
+  "minimal_core": [
+    {
+      "source_package": "fastapi",
+      "source_version": "0.95.0",
+      "specifier_raw": "<2.0.0,>=1.7.4"
+    },
+    {
+      "source_package": "langchain-core",
+      "source_version": "0.3.0",
+      "specifier_raw": ">=2.7.0"
+    }
+  ],
+  "available_versions_sample": [
+    "2.14.0b1",
+    "2.14.0b2",
+    "2.14.0",
+    "2.14.1",
+    "2.14.2"
+  ]
+}
