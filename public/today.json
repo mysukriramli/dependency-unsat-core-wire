@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-30",
-  "generated_at_utc": "2026-10-30T10:04:09.334732+00:00",
+  "date": "2026-10-31",
+  "generated_at_utc": "2026-10-31T09:41:25.382938+00:00",
   "conflicts_emitted_count": 2,
   "proofs": [
     {
@@ -19,6 +19,13 @@
         }
       ],
       "remediations": [
+        {
+          "change_package": "botocore",
+          "from_version": "1.34.0",
+          "to_version": "1.43.123",
+          "cost": 1,
+          "strategy": "version_shift"
+        },
         {
           "change_package": "botocore",
           "from_version": "1.34.0",
@@ -44,13 +51,6 @@
           "change_package": "botocore",
           "from_version": "1.34.0",
           "to_version": "1.43.119",
-          "cost": 1,
-          "strategy": "version_shift"
-        },
-        {
-          "change_package": "botocore",
-          "from_version": "1.34.0",
-          "to_version": "1.43.118",
           "cost": 1,
           "strategy": "version_shift"
         }
