@@ -1,5 +1,5 @@
 # Dependency UNSAT Core Wire
-> Last Sync: 2026-10-31T09:41:25.382938+00:00 UTC
+> Last Sync: 2026-11-01T10:30:10.980444+00:00 UTC
 > Optimization: Deterministic Minimal Unsatisfiable Subsets (MUS) and remediations for dependency resolution conflicts.
 > Eliminates 20,000 to 100,000 tokens of resolver logs and changelogs per failure.
 
