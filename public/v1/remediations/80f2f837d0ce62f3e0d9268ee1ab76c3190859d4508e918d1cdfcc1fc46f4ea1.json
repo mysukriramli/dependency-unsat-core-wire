@@ -40,7 +40,7 @@
     {
       "change_package": "langchain-core",
       "from_version": "0.3.0",
-      "to_version": "1.7.6",
+      "to_version": "1.7.7",
       "cost": 2,
       "strategy": "version_shift"
     }
