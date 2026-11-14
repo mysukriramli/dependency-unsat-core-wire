@@ -5,6 +5,20 @@
     {
       "change_package": "fastapi",
       "from_version": "0.95.0",
+      "to_version": "0.162.7",
+      "cost": 1,
+      "strategy": "version_shift"
+    },
+    {
+      "change_package": "fastapi",
+      "from_version": "0.95.0",
+      "to_version": "0.162.6",
+      "cost": 1,
+      "strategy": "version_shift"
+    },
+    {
+      "change_package": "fastapi",
+      "from_version": "0.95.0",
       "to_version": "0.162.5",
       "cost": 1,
       "strategy": "version_shift"
@@ -20,20 +34,6 @@
       "change_package": "fastapi",
       "from_version": "0.95.0",
       "to_version": "0.162.3",
-      "cost": 1,
-      "strategy": "version_shift"
-    },
-    {
-      "change_package": "fastapi",
-      "from_version": "0.95.0",
-      "to_version": "0.162.2",
-      "cost": 1,
-      "strategy": "version_shift"
-    },
-    {
-      "change_package": "fastapi",
-      "from_version": "0.95.0",
-      "to_version": "0.162.1",
       "cost": 1,
       "strategy": "version_shift"
     },
