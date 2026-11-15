@@ -1,5 +1,5 @@
 # Dependency UNSAT Core Wire
-> Last Sync: 2026-11-14T10:29:14.351567+00:00 UTC
+> Last Sync: 2026-11-15T10:57:33.614778+00:00 UTC
 > Optimization: Deterministic Minimal Unsatisfiable Subsets (MUS) and remediations for dependency resolution conflicts.
 > Eliminates 20,000 to 100,000 tokens of resolver logs and changelogs per failure.
 
@@ -19,9 +19,9 @@
   - `fastapi==0.95.0` requires `pydantic<2.0.0,>=1.7.4`
   - `langchain-core==0.3.0` requires `pydantic>=2.7.0`
 - **Candidate Remediations**:
+  - Move `fastapi`: `0.95.0` -> `0.163.1` (Cost: 1)
+  - Move `fastapi`: `0.95.0` -> `0.163.0` (Cost: 1)
   - Move `fastapi`: `0.95.0` -> `0.162.7` (Cost: 1)
   - Move `fastapi`: `0.95.0` -> `0.162.6` (Cost: 1)
   - Move `fastapi`: `0.95.0` -> `0.162.5` (Cost: 1)
-  - Move `fastapi`: `0.95.0` -> `0.162.4` (Cost: 1)
-  - Move `fastapi`: `0.95.0` -> `0.162.3` (Cost: 1)
   - Move `langchain-core`: `0.3.0` -> `1.8.0` (Cost: 2)

@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-14",
-  "generated_at_utc": "2026-11-14T10:29:14.351567+00:00",
+  "date": "2026-11-15",
+  "generated_at_utc": "2026-11-15T10:57:33.614778+00:00",
   "conflicts_emitted_count": 2,
   "proofs": [
     {
@@ -75,6 +75,20 @@
         {
           "change_package": "fastapi",
           "from_version": "0.95.0",
+          "to_version": "0.163.1",
+          "cost": 1,
+          "strategy": "version_shift"
+        },
+        {
+          "change_package": "fastapi",
+          "from_version": "0.95.0",
+          "to_version": "0.163.0",
+          "cost": 1,
+          "strategy": "version_shift"
+        },
+        {
+          "change_package": "fastapi",
+          "from_version": "0.95.0",
           "to_version": "0.162.7",
           "cost": 1,
           "strategy": "version_shift"
@@ -90,20 +104,6 @@
           "change_package": "fastapi",
           "from_version": "0.95.0",
           "to_version": "0.162.5",
-          "cost": 1,
-          "strategy": "version_shift"
-        },
-        {
-          "change_package": "fastapi",
-          "from_version": "0.95.0",
-          "to_version": "0.162.4",
-          "cost": 1,
-          "strategy": "version_shift"
-        },
-        {
-          "change_package": "fastapi",
-          "from_version": "0.95.0",
-          "to_version": "0.162.3",
           "cost": 1,
           "strategy": "version_shift"
         },
