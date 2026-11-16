@@ -1,7 +1,7 @@
 {
   "wire": "dependency-unsat-core-wire",
   "schema_version": "1.0.0",
-  "generated_at": "2026-11-15T10:57:33.614778+00:00",
+  "generated_at": "2026-11-16T11:24:31.578930+00:00",
   "source_cursor": "pypi-top-tier",
   "freshness_slo_seconds": 3600,
   "artifacts": [

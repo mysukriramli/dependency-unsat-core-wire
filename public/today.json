@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-15",
-  "generated_at_utc": "2026-11-15T10:57:33.614778+00:00",
+  "date": "2026-11-16",
+  "generated_at_utc": "2026-11-16T11:24:31.578930+00:00",
   "conflicts_emitted_count": 2,
   "proofs": [
     {
@@ -110,7 +110,7 @@
         {
           "change_package": "langchain-core",
           "from_version": "0.3.0",
-          "to_version": "1.8.0",
+          "to_version": "1.8.1",
           "cost": 2,
           "strategy": "version_shift"
         }
