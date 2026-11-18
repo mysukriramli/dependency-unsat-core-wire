@@ -5,6 +5,13 @@
     {
       "change_package": "fastapi",
       "from_version": "0.95.0",
+      "to_version": "0.163.2",
+      "cost": 1,
+      "strategy": "version_shift"
+    },
+    {
+      "change_package": "fastapi",
+      "from_version": "0.95.0",
       "to_version": "0.163.1",
       "cost": 1,
       "strategy": "version_shift"
@@ -31,16 +38,9 @@
       "strategy": "version_shift"
     },
     {
-      "change_package": "fastapi",
-      "from_version": "0.95.0",
-      "to_version": "0.162.5",
-      "cost": 1,
-      "strategy": "version_shift"
-    },
-    {
       "change_package": "langchain-core",
       "from_version": "0.3.0",
-      "to_version": "1.8.1",
+      "to_version": "1.8.2",
       "cost": 2,
       "strategy": "version_shift"
     }
