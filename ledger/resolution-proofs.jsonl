@@ -50,3 +50,5 @@
 {"commit_id": 48, "timestamp_utc": "2026-11-18T11:45:41.160241+00:00", "operation": "EMIT_UNSAT_CORE", "proof_hash": "80f2f837d0ce62f3e0d9268ee1ab76c3190859d4508e918d1cdfcc1fc46f4ea1", "target_dependency": "pydantic", "core_size": 2}
 {"commit_id": 49, "timestamp_utc": "2026-11-19T11:44:00.253173+00:00", "operation": "EMIT_UNSAT_CORE", "proof_hash": "7b9a22d6b30f09bedd653aae66dd4a8b15c180b765956afb75ba8331e41b64b7", "target_dependency": "urllib3", "core_size": 2}
 {"commit_id": 50, "timestamp_utc": "2026-11-19T11:44:00.253173+00:00", "operation": "EMIT_UNSAT_CORE", "proof_hash": "80f2f837d0ce62f3e0d9268ee1ab76c3190859d4508e918d1cdfcc1fc46f4ea1", "target_dependency": "pydantic", "core_size": 2}
+{"commit_id": 51, "timestamp_utc": "2026-11-20T11:43:22.173389+00:00", "operation": "EMIT_UNSAT_CORE", "proof_hash": "7b9a22d6b30f09bedd653aae66dd4a8b15c180b765956afb75ba8331e41b64b7", "target_dependency": "urllib3", "core_size": 2}
+{"commit_id": 52, "timestamp_utc": "2026-11-20T11:43:22.173389+00:00", "operation": "EMIT_UNSAT_CORE", "proof_hash": "d331191bdd353d7416347d4e2d17ee054299cc140b2651621baa5fc6f76258de", "target_dependency": "pydantic", "core_size": 2}

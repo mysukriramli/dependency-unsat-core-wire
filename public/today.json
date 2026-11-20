@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-19",
-  "generated_at_utc": "2026-11-19T11:44:00.253173+00:00",
+  "date": "2026-11-20",
+  "generated_at_utc": "2026-11-20T11:43:22.173389+00:00",
   "conflicts_emitted_count": 2,
   "proofs": [
     {
@@ -19,6 +19,13 @@
         }
       ],
       "remediations": [
+        {
+          "change_package": "botocore",
+          "from_version": "1.34.0",
+          "to_version": "1.44.7",
+          "cost": 1,
+          "strategy": "version_shift"
+        },
         {
           "change_package": "botocore",
           "from_version": "1.34.0",
@@ -46,18 +53,11 @@
           "to_version": "1.44.3",
           "cost": 1,
           "strategy": "version_shift"
-        },
-        {
-          "change_package": "botocore",
-          "from_version": "1.34.0",
-          "to_version": "1.44.2",
-          "cost": 1,
-          "strategy": "version_shift"
         }
       ]
     },
     {
-      "proof_hash": "80f2f837d0ce62f3e0d9268ee1ab76c3190859d4508e918d1cdfcc1fc46f4ea1",
+      "proof_hash": "d331191bdd353d7416347d4e2d17ee054299cc140b2651621baa5fc6f76258de",
       "target": "pydantic",
       "core": [
         {
@@ -110,7 +110,7 @@
         {
           "change_package": "langchain-core",
           "from_version": "0.3.0",
-          "to_version": "1.8.3",
+          "to_version": "1.8.4",
           "cost": 2,
           "strategy": "version_shift"
         }

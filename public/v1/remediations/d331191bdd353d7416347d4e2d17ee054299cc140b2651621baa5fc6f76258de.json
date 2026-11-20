@@ -1,0 +1,48 @@
+{
+  "proof_hash": "d331191bdd353d7416347d4e2d17ee054299cc140b2651621baa5fc6f76258de",
+  "target_dependency": "pydantic",
+  "remediations": [
+    {
+      "change_package": "fastapi",
+      "from_version": "0.95.0",
+      "to_version": "0.165.0",
+      "cost": 1,
+      "strategy": "version_shift"
+    },
+    {
+      "change_package": "fastapi",
+      "from_version": "0.95.0",
+      "to_version": "0.164.0",
+      "cost": 1,
+      "strategy": "version_shift"
+    },
+    {
+      "change_package": "fastapi",
+      "from_version": "0.95.0",
+      "to_version": "0.163.2",
+      "cost": 1,
+      "strategy": "version_shift"
+    },
+    {
+      "change_package": "fastapi",
+      "from_version": "0.95.0",
+      "to_version": "0.163.1",
+      "cost": 1,
+      "strategy": "version_shift"
+    },
+    {
+      "change_package": "fastapi",
+      "from_version": "0.95.0",
+      "to_version": "0.163.0",
+      "cost": 1,
+      "strategy": "version_shift"
+    },
+    {
+      "change_package": "langchain-core",
+      "from_version": "0.3.0",
+      "to_version": "1.8.4",
+      "cost": 2,
+      "strategy": "version_shift"
+    }
+  ]
+}
