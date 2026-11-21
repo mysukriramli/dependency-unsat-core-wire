@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-20",
-  "generated_at_utc": "2026-11-20T11:43:22.173389+00:00",
+  "date": "2026-11-21",
+  "generated_at_utc": "2026-11-21T11:06:47.879300+00:00",
   "conflicts_emitted_count": 2,
   "proofs": [
     {
@@ -22,6 +22,20 @@
         {
           "change_package": "botocore",
           "from_version": "1.34.0",
+          "to_version": "1.44.9",
+          "cost": 1,
+          "strategy": "version_shift"
+        },
+        {
+          "change_package": "botocore",
+          "from_version": "1.34.0",
+          "to_version": "1.44.8",
+          "cost": 1,
+          "strategy": "version_shift"
+        },
+        {
+          "change_package": "botocore",
+          "from_version": "1.34.0",
           "to_version": "1.44.7",
           "cost": 1,
           "strategy": "version_shift"
@@ -37,20 +51,6 @@
           "change_package": "botocore",
           "from_version": "1.34.0",
           "to_version": "1.44.5",
-          "cost": 1,
-          "strategy": "version_shift"
-        },
-        {
-          "change_package": "botocore",
-          "from_version": "1.34.0",
-          "to_version": "1.44.4",
-          "cost": 1,
-          "strategy": "version_shift"
-        },
-        {
-          "change_package": "botocore",
-          "from_version": "1.34.0",
-          "to_version": "1.44.3",
           "cost": 1,
           "strategy": "version_shift"
         }
